@@ -1,18 +1,23 @@
-IMPORTANT: To get started:
-Please read the documentation included in the module folder
-Watch the videos on the Documentation tab.
-Review the sample code in the \Samples folder
-What is PowerEvents?
+**IMPORTANT**: To get started:
 
-PowerEvents is a Windows PowerShell v2.0 module designed to facilitate the ease of creating, updating, and deleting WMI (Windows Management Instrumentation) permanent event registrations. PowerEvents makes it easy to create WMI event filters (define the events you want to capture) and event consumers (responders to events), and then bind them together to initiate the flow of events. By leveraging permanent event registrations, you can perform advanced monitoring functions on a workstation or server, that would otherwise require implementation of an enterprise monitoring product. Because WMI is incredibly vast in the information it provides, very detailed monitoring can be performed using almost any of the WMI objects that exist on a computer.
-What are WMI Permanent Event Registrations?
+1. Please read the documentation included in the module folder
+2. Watch the [YouTube videos](https://www.youtube.com/playlist?list=PLDbRgZ0OOEpVsGfj4SMGG6quUK9BRPuTF)
+3. Review the sample code in the \Samples folder
+
+# What is PowerEvents?
+
+PowerEvents is a Windows PowerShell module designed to facilitate the ease of creating, updating, and deleting WMI (Windows Management Instrumentation) permanent event registrations. PowerEvents makes it easy to create WMI event filters (define the events you want to capture) and event consumers (responders to events), and then bind them together to initiate the flow of events. By leveraging permanent event registrations, you can perform advanced monitoring functions on a workstation or server, that would otherwise require implementation of an enterprise monitoring product. Because WMI is incredibly vast in the information it provides, very detailed monitoring can be performed using almost any of the WMI objects that exist on a computer.
+
+# What are WMI Permanent Event Registrations?
 
 A little-known capability of the WMI service, is its capability to create a permanent registration (listener) for events, and then automatically respond to those events. At a very basic level, it's "if X happens, do Y" but in this case, it's all built into WMI, without the need for any additional software.
-What Can I Monitor with PowerEvents?
+
+# What Events Can I Monitor with PowerEvents?
 
 WMI contains a vast amount of information about the Windows operating system, the hardware underneath it, and applications that extend WMI.
 
 Here are a very few examples of events that you can monitor in WMI:
+
 - Microsoft Active Directory
   - Changes in group policy configuration on GP clients
   - Users created or deleted
@@ -80,4 +85,5 @@ Because it's awesome, and it helps you monitor for low-level system events that 
 # About the Author
 
 Twitter: https://twitter.com/pcgeek86
+
 Website: https://trevorsullivan.net
